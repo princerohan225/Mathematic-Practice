@@ -8,9 +8,7 @@ def Addition():
         max = 100
 
         A = random.randint(min, max)
-        # print("A:",A)
         B = random.randint(min, max)
-        # print("B:",B)
 
         Sum = A+B
         print("\n", A, "+", B, "= ?")
@@ -35,15 +33,14 @@ def Subtraction():
         max = 100
 
         A = random.randint(min, max)
-        #print("\nA:", A)
+ 
         B = random.randint(min, max)
-        #print("B:", B)
         print("\n", A, '-', B, '= ?')
 
         try:
             if A > B:
                 Sum = A-B
-                # print(Sum)
+        
 
                 i = int(input("Enter the number:"))
 
@@ -56,7 +53,7 @@ def Subtraction():
             elif B > A:
 
                 Sum = B-A
-                # print(Sum)
+             
 
                 i = int(input("Enter the value:"))
 
@@ -77,9 +74,9 @@ def Multiplication():
         max = 50
 
         A = random.randint(min, max)
-        #print("\nA:", A)
+      
         B = random.randint(min, max)
-        #print("B:", B)
+    
 
         Sum = A*B
         print("\n", A, "*", B, "= ?")
@@ -103,16 +100,16 @@ def Division():
         max = 50
 
         A = random.randint(min, max)
-        # print("\nA:",A)
+     
         B = random.randint(min, max)
-        # print("B:",B)
+   
 
         Divisor = A/B
         Remainder = round(Divisor, 2)
 
         print("\n", A, "/", B, "= ?")
 
-        # print("Remainder:",Remainder)
+      
         try:
 
             I = float(input("Enter the value: "))
@@ -131,13 +128,13 @@ def Percentage():
     while True:
         min = 1
         max = 50
-        #per = 100
+  
 
         A = random.randint(min, max)
-        #print("\nA:", A)
+     
 
         B = random.randint(min, max)
-        #print("B:", B)
+   
 
         quotient = A/B
         per = quotient*100
@@ -145,7 +142,7 @@ def Percentage():
 
         print("\n",A,'/',B, "*100","= ?")
 
-        #print('Answer {} %'.format(percentage))
+
 
         try:
 
